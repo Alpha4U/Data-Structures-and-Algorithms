@@ -5,7 +5,7 @@ public class BubbleSort {
         int arr[] = {5,84,23,12,7,23,6,2,-56};
         int unsortedArrLength = arr.length-1;
         for (int i = unsortedArrLength; i > 0 ; i--) {
-            for (int j = 0; j < unsortedArrLength; j++) {
+            for (int j = 0; j < i; j++) {
                 if(arr[j]>arr[j+1]){
                     swap(arr,j,j+1);
                 }
